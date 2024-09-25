@@ -1,9 +1,15 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  let splittedWord = word.split('').reverse().join('')
+  return splittedWord===word ? true:false
 }
 
 /* 
   Add your pseudocode here
+  split the word
+  reverse & join
+  check if word is equal to reversed word
+  return the result
 */
 
 /*
